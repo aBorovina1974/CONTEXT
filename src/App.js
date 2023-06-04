@@ -7,7 +7,7 @@ import AuthContext from "./store/auth-context";
 
 function App() {
   const myRef = useRef(null);
-  console.log(myRef);
+  console.log("This is my ref: ", myRef);
   const contextData = useContext(AuthContext);
   return (
     <React.Fragment>
